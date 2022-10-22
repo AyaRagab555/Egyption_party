@@ -1,0 +1,105 @@
+:root{
+    --main-color: rgba(214, 46, 51, 0.6);
+    --second-color: #ccc;
+}
+.bg-main{
+    background-color:var(--main-color);
+}
+.bg-second{
+    background-color: var(--second-color);
+}
+.text-main{
+    color: var(--main-color);
+}
+.text-second{
+    color: var(--second-color);
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif    ;
+    font-size: 14px;
+}
+header{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../imges/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.cover{
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+header h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+header p{
+    font-size: 14px;
+}
+.open{
+    width: 20%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    z-index: 9999;
+
+}
+.box{
+    width: 80%;
+    height: 100%;
+    background-color: #414658;
+    top:0;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+}
+.close{
+    color: #fff;
+    font-size: larger;
+    position: absolute;
+    right: 140px;
+    top: 50px;
+    cursor: pointer;
+
+}
+.links{
+    top: 100px;
+}
+.links a{
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;
+}
+.links a:hover{
+    color:var(--main-color);
+}
+.iconH2{
+    cursor: pointer;
+}
+.headTitle{
+    cursor: pointer;
+}
+.counter{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imges/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.boxI{
+    width: 40px;
+    height: 40px;
+    border: #414658 1px solid;
+}
+.boxI:hover{
+    width: 40px;
+    height: 40px;
+    border: #D62E33 1px solid;
+    background-color: #D62E33;
+    color: #fff;
+}
+.form-control::placeholder{
+    font-size: large;
+    color: #989aa1;
+}
